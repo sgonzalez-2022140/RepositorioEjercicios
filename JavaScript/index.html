@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahorcado</title>
+    
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="script.js" defer></script>
+    
+    
+</head>
+
+<body>
+
+    <h1> JUEGO DE AHORCADO</h1>
+   
+    <div id="vista_canvas">
+        <center><canvas id="canvas" width="400" height="400"></canvas></center>
+        <center><div id="palabras_usadas"></div></center>
+    </div>
+    
+    <br>
+    <br>
+    <br>
+
+      
+
+    <center><div id="palabra_contenida" class="oculto"></div></center>
+    <br>
+    <br>
+    
+    <div id="victory-alert">
+        <img id="victory-image" src="img/win.jpeg" alt="Victoria">
+        <div id="victory-message">¡Has Ganado!</div>
+    </div>
+
+
+    <center><div id="botones" class="oculto">
+
+        <button class="boton-letra" data-letra="A">A</button>
+        
+        <button class="boton-letra" data-letra="B">B</button>
+
+        <button class="boton-letra" data-letra="C">C</button>
+
+        <button class="boton-letra" data-letra="D">D</button>
+
+        <button class="boton-letra" data-letra="E">E</button>
+        
+        <button class="boton-letra" data-letra="F">F</button>
+
+        <button class="boton-letra" data-letra="G">G</button>
+
+        <button class="boton-letra" data-letra="H">H</button>
+
+        <button class="boton-letra" data-letra="I">I</button>
+
+        <button class="boton-letra" data-letra="J">J</button>
+        
+        <button class="boton-letra" data-letra="K">K</button>
+
+        <button class="boton-letra" data-letra="L">L</button>
+
+        <button class="boton-letra" data-letra="M">M</button>
+
+        <button class="boton-letra" data-letra="N">N</button>
+
+        <button class="boton-letra" data-letra="Ñ">Ñ</button>
+
+        <button class="boton-letra" data-letra="O">O</button>
+
+        <button class="boton-letra" data-letra="P">P</button>
+
+        <button class="boton-letra" data-letra="Q">Q</button>
+
+        <button class="boton-letra" data-letra="R">R</button>
+
+        <button class="boton-letra" data-letra="S">S</button>
+
+        <button class="boton-letra" data-letra="T">T</button>
+
+        <button class="boton-letra" data-letra="U">U</button>
+
+        <button class="boton-letra" data-letra="V">V</button>
+
+        <button class="boton-letra" data-letra="W">W</button>
+
+        <button class="boton-letra" data-letra="X">X</button>
+
+        <button class="boton-letra" data-letra="Y">Y</button>
+
+        <button class="boton-letra" data-letra="Z">Z</button>
+    </div></center>
+    <br>
+    <center><button id="startButton">START</button></center>
+    <br>
+    <center><button id="resetButton">REINICIAR LETRAS USADAS</button></center>
+
+    </div>
+</body>
+</html>

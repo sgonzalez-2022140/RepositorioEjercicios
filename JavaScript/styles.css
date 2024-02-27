@@ -1,0 +1,95 @@
+h1{
+    font-size: 44px;
+    font-family:'Segoe UI';
+    color: salmon;
+    text-align: center;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: aliceblue;
+}
+
+body {
+    background-image: url(/img/17010.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+button {
+    padding: 8px;
+}
+
+#vista_canvas {    
+    justify-content: center; /* Centra horizontalmente */
+    display: flex;
+    
+}
+
+.oculto {
+    display: none;
+}
+
+
+#canvas {
+    margin-right: 20px; /* Margen a la derecha del canvas */
+}
+
+#palabras_usadas {
+    border: 1px solid #ccc; /* Agregar un borde alrededor de las palabras usadas */
+    padding: 10px; /* Añadir un espacio interno alrededor del contenido */
+}
+.letter {
+    color: white; /* Agrega el color blanco que deseas */
+    text-align: center;
+    display: inline-block; /* Para que el texto se centre horizontalmente */
+    width: 20px; /* Ajusta el ancho según tus necesidades */
+    font-size: 18px; /* Ajusta el tamaño de fuente según tus necesidades */
+    margin-right: 2px; /* Espacio entre letras */
+     
+}
+
+
+
+#palabra_contenida {
+    border: 2px solid #000; /* Borde de 2 píxeles sólido de color negro */
+    padding: 10px; /* Espaciado interno de 10 píxeles */
+    background-color: transparent; /* Fondo de color gris claro */
+    display: inline-block; /* Hace que el cuadro se ajuste al contenido */
+    margin: 20px auto; /* Márgenes arriba y abajo de 20 píxeles, centrado horizontalmente */
+    border-radius: 5px; /* Borde redondeado */
+    color: black; /* Cambia el color del texto a negro */
+}
+
+.centrar-texto {
+    text-align: center;    
+}
+
+#victory-alert {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #4CAF50; /* Color de fondo verde */
+    color: white; /* Color del texto blanco */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    display: none; /* Oculta la alerta inicialmente */
+    z-index: 1000; /* Asegura que la alerta esté en la parte superior */
+}
+
+#victory-image {
+    max-width: 50%; /* Ajusta el tamaño máximo de la imagen */
+    height: auto; /* Mantiene la proporción de aspecto de la imagen */
+}
+
+#victory-message {
+    font-size: 24px; /* Tamaño de fuente más grande */
+    margin-top: 10px; /* Espacio superior */
+}
+
